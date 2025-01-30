@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: Playwrite_IN;
+            src: url(Playwrite_IN/static/PlaywriteIN-Regular.ttf);
+        }
+
+        @font-face {
+        font-family:PlaywriteIN-Light;
+        src: url(Playwrite_IN/static/PlaywriteIN-Light.ttf);
+    }
+
+        @media screen and (max-width: 600px){
+            .content{
+                width: 150%;
+                height: 1100px;
+            }
+
+            .nav{
+                height: 120px;
+                margin: 0;
+                padding: 20px;
+               
+            }
+
+            .nav-menu p{
+                padding-bottom: 100px;
+            }
+
+            .nav-menu a{
+                margin: 3.5px;
+            }
+
+            #no{
+                display: flex;
+            }
+
+            .midway{
+                display: block;
+                margin: 0 auto;
+            }
+
+            h1{
+                font-size: 2vw;
+            }
+
+            img{
+                display: block;
+                /* float: left; */
+                margin: 0 auto;
+                padding: 0;
+                width:70vw;
+            }
+
+            .nav-menu a{
+            float: right;
+            display: inline;
+            width: 100%;
+            margin-left: 100px;
+                    }
+            
+        }
+
+        @media screen and (max-width: 800px)  {
+
+            /* .content{
+                height: 600px;
+            } */
+        nav a{
+            float: left;
+            display: block;
+        }
+        }
+
+        
+        
+        @media screen and (min-width: 601px) and (max-width:1024) {
+
+      img{
+        width: 30vw;
+        position: relative;
+        bottom: 400px;
+      }
+
+
+    }
+
+    </style>
+</head>
+
+<body>
+
+<div class="content">
+    <div class="nav">
+        <nav class="nav-menu">
+            <p style="margin-right:300px; font-weight: bold; font-family: Nunito Sans; font-size: 20px; display: inline" >&copy;JesusTechie</p>
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+        </nav>
+    </div>
+
+    <div class="midway">
+    <h1 id="no"> 404 </h1>
+    <h1 id="oops">Oops!</h1>
+    <hr>
+    <p>Ok this is awkward but I don't think you should be here</p>
+
+    <button id="home">Home</button>
+    <button id="back">Back</button>
+    </div>
+
+    <div class="image">
+    <img src="images/pencil.jpg" alt="Error">
+    </div>
+
+    
+    
+</div>
+</body>
+</html>
